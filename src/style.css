@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+#weather-display {
+  margin-top: 1rem;
+}
+
+#loading {
+  margin-top: 1rem;
+  font-weight: bold;
+}

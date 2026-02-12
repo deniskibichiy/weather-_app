@@ -4,8 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    
+     <h1>Weather App 🌤</h1>
+
+  <form id="weather-form">
+    <input 
+      type="text" 
+      id="location-input" 
+      placeholder="Enter location (e.g Nairobi)" 
+      required
+    />
+    <button type="submit">Get Weather</button>
+  </form>
+
+  <div id="loading" hidden>Loading...</div>
+
+  <div id="weather-display"></div>
   </body>
 </html>
